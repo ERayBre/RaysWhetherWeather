@@ -1,0 +1,36 @@
+
+<div class="column is-8 is-light">
+    <table class="table is-fullwidth">
+        <thread>
+            <tr>
+                <th>Day</th>
+                <th>Weather</th>
+                <th>Temp</th>
+                <th>Wind Direction</th>
+                <th>Wind Speed</th>
+            </tr>
+        </thread>
+                <tbody>     
+
+    			{% for location in overall_forecast %}
+
+        			{% if location.locationTitle == "Dublin" %}
+                	<tr>
+                		<td>{{ location.day }}</td>
+                		<td>{{ location.weatherDescription }}</td>
+                		<td>{{ location.locationTemp }}</td>
+                		<td>{{ location.windDir }}</td>
+                		<td>{{ location.windSpeed }}</td>
+                	</tr>
+        			{% endif %}
+       
+   				 {% endfor %} 
+
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
