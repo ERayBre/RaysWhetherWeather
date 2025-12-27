@@ -1,7 +1,14 @@
 [
-{"locationTitle": "Dublin", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "mild and sunny", "locationTemp": "23"},
-{"locationTitle": "London", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "cold and sunny", "locationTemp": "13"},
-{"locationTitle": "Berlin", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "hot and sunny", "locationTemp": "33"}
+{"locationTitle": "Dublin", "day": "Monday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "mild and sunny", "locationTemp": "23", "windDir": "S", "windSpeed": "23"},
+{"locationTitle": "London", "day": "Monday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "cold and sunny", "locationTemp": "13", "windDir": "S", "windSpeed": "23"},
+{"locationTitle": "Berlin", "day": "Monday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "hot and sunny", "locationTemp": "33", "windDir": "S", "windSpeed": "23"},
+{"locationTitle": "Dublin", "day": "Tuesday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Tuesday mild and sunny", "locationTemp": "23", "windDir": "S", "windSpeed": "23"},
+{"locationTitle": "London", "day": "Tuesday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Tuesday cold and sunny", "locationTemp": "13", "windDir": "S", "windSpeed": "23"},
+{"locationTitle": "Berlin", "day": "Tuesday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": " Tuesday hot and sunny", "locationTemp": "33", "windDir": "S", "windSpeed": "23"},
+{"locationTitle": "Dublin", "day": "Wednesday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Wednesday mild and sunny", "locationTemp": "23", "windDir": "S", "windSpeed": "23"},
+{"locationTitle": "London", "day": "Wednesday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Wednesday cold and sunny", "locationTemp": "13", "windDir": "S", "windSpeed": "23"},
+{"locationTitle": "Berlin", "day": "Wednesday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Wednesday hot and sunny", "locationTemp": "33", "windDir": "S", "windSpeed": "23"},
+{"locationTitle": "Dublin", "day": "Thursday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Thursday mild and sunny", "locationTemp": "23", "windDir": "S", "windSpeed": "23"},
+{"locationTitle": "London", "day": "Thursday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Thursday cold and sunny", "locationTemp": "13", "windDir": "S", "windSpeed": "23"},
+{"locationTitle": "Berlin", "day": "Thursday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Thursday hot and sunny", "locationTemp": "33", "windDir": "S", "windSpeed": "23"}
 ]
-
-

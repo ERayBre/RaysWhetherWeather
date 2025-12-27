@@ -1,20 +1,24 @@
 ---
 layout: layout.njk 
 title: Dashboard 
-data: forecast
+data: overall_forecast
 ---
 
-<section class="columns is-desktop is-centered">
+<section class="columns is-desktop is-centered is-multiline">
 
-    {% for location in forecast %}
+    {% for location in overall_forecast %}
 
-        {% set locationTitle = location.locationTitle %}
-        {% set weatherTypeImage = location.weatherTypeImage %}
-        {% set weatherDescription = location.weatherDescription %}
-        {% set locationTemp = location.locationTemp %}
+        {% if location.day == "Monday" %}
+            {% set locationTitle = location.locationTitle %}
+            {% set weatherTypeImage = location.weatherTypeImage %}
+            {% set weatherDescription = location.weatherDescription %}
+            {% set locationTemp = location.locationTemp %}
+            {% set windDir = location.windDir %}
+            {% set windSpeed = location.windSpeed %}
 
-        {% include "location-card.njk" %}
-
+            {% include "location-card.njk" %}
+        {% endif %}
+       
     {% endfor %} 
 
 

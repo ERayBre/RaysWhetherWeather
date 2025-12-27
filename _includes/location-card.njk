@@ -2,7 +2,7 @@
 
   <section class="card has-text-centered">
     <a href="/{{locationTitle}}">
-    
+
       <header class="card-header">
         <p class="card-header-title is-size-4 is-centered">
           {{locationTitle}}
@@ -15,18 +15,29 @@
         </figure>
       </div>
 
-      <article class="card-content">
-        <p class="subtitle is-size-4 is-centered">
-          {{locationTemp}} °C
-        </p>
-        <p class="content is-size-4">
-          {{locationTitle}} is {{weatherDescription}}
-        </p>
-      </article>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-96x96">
+              <img
+                src="/images/{{windDir}}.png"
+                alt="Placeholder image"
+              />
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="subtitle is-size-4 is-centered">
+              Wind {{windSpeed}} kmph - Temp {{locationTemp}} °C
+            </p>
+            <p class="content is-size-4">
+              {{locationTitle}} is {{weatherDescription}}
+            </p>
+          </div>
+        </div>
 
-    </a>
-  </section>
+      </a>
+    </section>
 
-</div>
+  </div>
 
 
