@@ -1,0 +1,24 @@
+---
+layout: layout.njk 
+title: Dashboard 
+data: forecast
+---
+
+<section class="columns is-desktop is-centered">
+
+    {% for location in forecast %}
+
+        {% set locationTitle = location.locationTitle %}
+        {% set weatherTypeImage = location.weatherTypeImage %}
+        {% set weatherDescription = location.weatherDescription %}
+        {% set locationTemp = location.locationTemp %}
+
+        {% include "location-card.njk" %}
+
+    {% endfor %} 
+
+
+
+</section>
+
+

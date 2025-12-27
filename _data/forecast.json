@@ -1,0 +1,7 @@
+[
+{"locationTitle": "Dublin", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "mild and sunny", "locationTemp": "23"},
+{"locationTitle": "London", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "cold and sunny", "locationTemp": "13"},
+{"locationTitle": "Berlin", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "hot and sunny", "locationTemp": "33"}
+]
+
+

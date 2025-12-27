@@ -9,86 +9,188 @@
 </head>
 
 <body>
+		  <nav class="navbar">
+    <div class="navbar-brand">
+      
+      <a class="navbar-item" href="/">
+        <img src="/images/logo_64x35.png" alt="Logo" />
+      </a>
 
-    <section class="section">
-        <div class="container has-text-centered">
-            <h1 class="title">
-                My First synced file for Whether Weather
-            </h1>
-            <p class="subtitle">
-                This is a full test of my dev setup, build local with 11ty, sync to GitHub, sync to netlify and publish 
-                my first website with
-                <strong class="has-text-primary">Bulma</strong>!
-            </p>
-        </div>
-    </section>
 
-<main class="columns is-multiline box is-centered">
-    <div class="column is-12 has-text-centered has-text-white">
-        <p class="is-size-1">Weekly Forcast</p>
     </div>
+    <div id="navbarMenu" class="navbar-menu">
+      <div class="navbar-end">
+        <a href="/" class="navbar-item">
+          Dashboard
+        </a>
+        <a href="/summary" class="navbar-item">
+          Summary
+        </a>
+        <a href="/forcast" class="navbar-item">
+          Forcast
+        </a>
+        <a href="/settings" class="navbar-item">
+          Settings
+        </a>
+      </div>
+    </div>
+  </nav>
 
-<div class="column is-4">
-    <section class="card has-text-centered">
-        <header class="card-header">
-            <p class="card-header-title is-size-4 is-centered">
-                Dublin
-            </p>
-        </header>
+		  <header class="column is-12 has-text-centered">
+    <p id="page-heading" class="is-size-1">Dashboard</p>
+  </header>
 
-    </section>
+
+<main>
+	
+<section class="columns is-desktop is-centered">
+
+    
+
+        
+        
+        
+        
+
+        <div class="column is-4 is-box">
+
+  <section class="card has-text-centered">
+    <a href="/Dublin">
+    
+      <header class="card-header">
+        <p class="card-header-title is-size-4 is-centered">
+          Dublin
+        </p>
+      </header>
+
+      <div class="card-image">
+        <figure class="image">
+          <img src="/images/sunny.jpg" alt="Weather Type Image">
+        </figure>
+      </div>
+
+      <article class="card-content">
+        <p class="subtitle is-size-4 is-centered">
+          23 °C
+        </p>
+        <p class="content is-size-4">
+          Dublin is mild and sunny
+        </p>
+      </article>
+
+    </a>
+  </section>
 
 </div>
 
-<div class="column is-8 is-light">
-    <table class="table is-fullwidth">
-        <thread>
-            <tr>
-                <th>Day</th>
-                <th>Weather</th>
-                <th>Temp</th>
-                <th>Wind</th>
-            </tr>
-        </thread>
-        <tbody>
-            <tr>
-                <td>Monday</td>
-                <td>mild</td>
-                <td>20</td>
-                <td>SW 5</td>
-            </tr>
-            <tr>
-                <td>Monday</td>
-                <td>mild</td>
-                <td>20</td>
-                <td>SW 5</td>
-            </tr>
-            <tr>
-                <td>Monday</td>
-                <td>mild</td>
-                <td>20</td>
-                <td>SW 5</td>
-            </tr>
-            <tr>
-                <td>Monday</td>
-                <td>mild</td>
-                <td>20</td>
-                <td>SW 5</td>
-            </tr>
 
-        </tbody>
-    </table>
+
+
+    
+
+        
+        
+        
+        
+
+        <div class="column is-4 is-box">
+
+  <section class="card has-text-centered">
+    <a href="/London">
+    
+      <header class="card-header">
+        <p class="card-header-title is-size-4 is-centered">
+          London
+        </p>
+      </header>
+
+      <div class="card-image">
+        <figure class="image">
+          <img src="/images/sunny.jpg" alt="Weather Type Image">
+        </figure>
+      </div>
+
+      <article class="card-content">
+        <p class="subtitle is-size-4 is-centered">
+          13 °C
+        </p>
+        <p class="content is-size-4">
+          London is cold and sunny
+        </p>
+      </article>
+
+    </a>
+  </section>
+
 </div>
+
+
+
+
+    
+
+        
+        
+        
+        
+
+        <div class="column is-4 is-box">
+
+  <section class="card has-text-centered">
+    <a href="/Berlin">
+    
+      <header class="card-header">
+        <p class="card-header-title is-size-4 is-centered">
+          Berlin
+        </p>
+      </header>
+
+      <div class="card-image">
+        <figure class="image">
+          <img src="/images/sunny.jpg" alt="Weather Type Image">
+        </figure>
+      </div>
+
+      <article class="card-content">
+        <p class="subtitle is-size-4 is-centered">
+          33 °C
+        </p>
+        <p class="content is-size-4">
+          Berlin is hot and sunny
+        </p>
+      </article>
+
+    </a>
+  </section>
+
+</div>
+
+
+
+
+     
+
+
+
+</section>
+
+
+
 </main>
 
-  <footer class="footer has-background-black has-text-white">
+	  <footer class="footer">
     <div class="container">
       <div class="content has-text-centered">
         <p>
-          <img class="image is-3-by-2 is-inline" src="/images/logo_64x35.png" alt="Whether Weather Logo"> Rays Whether Weather - Your Weather, Whether you like the Weather or not
+          <img class="image is-3-by-2 is-inline" src="/images/logo_64x35.png" alt="Whether Weather Logo"> 
+            Rays Whether Weather - Your Weather, Whether you like the Weather or not
+            <br>
+            This webpage was created for a web development assignment at SETU by Raymond Brennan.
         </p>
       </div>
     </div>
   </footer>
+
 </body>
+
 </html>
