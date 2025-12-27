@@ -1,11 +1,13 @@
 ---
 layout: layout.njk 
-title: Dublin 
+title: My City 
 subTitle: Weekly Forecast
 data: overall_forecast 
 ---
 
 <section class="columns is-desktop is-centered is-multiline">
+
+    {% set title = "Dublin" %}
 
     {% for location in overall_forecast %}
 
@@ -14,9 +16,9 @@ data: overall_forecast
                 {% set locationTitle = location.locationTitle %}
                 {% set weatherTypeImage = location.weatherTypeImage %}
                 {% set weatherDescription = location.weatherDescription %}
-                {% set locationTemp = location.locationTemp %}
+                {% set maxTemp = location.maxTemp %}
                 {% set windDir = location.windDir %}
-                {% set windSpeed = location.windSpeed %}
+                {% set maxWind = location.maxWind %}
                 {% set day = location.day %}
 
                 {% include "location-card.njk" %}

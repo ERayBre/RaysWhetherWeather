@@ -1,6 +1,6 @@
 <div class="column is-4 is-box">
 
-  <section class="card has-text-centered">
+  <section class="card has-text-centered m-6 p-5">
     <a href="/{{locationTitle}}">
 
       <header class="card-header">
@@ -26,14 +26,19 @@
             </figure>
           </div>
           <div class="media-content">
+                        <p class="content is-size-4">
+              
+            </p>
             <p class="subtitle is-size-4 is-centered">
               {{day}}
               <br>
-              Wind {{windSpeed}} kmph - Temp {{locationTemp}} °C
-            </p>
-            <p class="content is-size-4">
               {{locationTitle}} is {{weatherDescription}}
+              <br>
+              Max Wind {{windSpeed}} km/h 
+              <br> 
+              Max Temp {{locationTemp}} °C
             </p>
+
           </div>
         </div>
 
