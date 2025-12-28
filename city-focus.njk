@@ -33,4 +33,52 @@ data: overall_forecast
       </div>
     </div>
   </div>
+
+<div class="container">
+  <div class="columns is-vcentered is-2">
+        {% set cardDay = "Today" %}
+        {% set cardWeatherType = "Showers" %}
+        {% set cardMinTemp = "5" %}
+        {% set cardMaxTemp = "16" %}
+    {% include "daily-card.njk" %}
+
+        {% set cardDay = "Monday" %}
+        {% set cardWeatherType = "Sunny" %}
+        {% set cardMinTemp = "11" %}
+        {% set cardMaxTemp = "23" %}
+    {% include "daily-card.njk" %}
+
+        {% set cardDay = "Tuesday" %}
+        {% set cardWeatherType = "Thunder" %}
+        {% set cardMinTemp = "5" %}
+        {% set cardMaxTemp = "14" %}
+    {% include "daily-card.njk" %}
+
+        {% set cardDay = "Wednesday" %}
+        {% set cardWeatherType = "Raining" %}
+        {% set cardMinTemp = "8" %}
+        {% set cardMaxTemp = "18" %}
+    {% include "daily-card.njk" %}
+
+        {% set cardDay = "Thursday" %}
+        {% set cardWeatherType = "Overcast" %}
+        {% set cardMinTemp = "9" %}
+        {% set cardMaxTemp = "19" %}
+    {% include "daily-card.njk" %}
+
+        {% set cardDay = "Friday" %}
+        {% set cardWeatherType = "Windy" %}
+        {% set cardMinTemp = "10" %}
+        {% set cardMaxTemp = "20" %}
+    {% include "daily-card.njk" %}
+
+        {% set cardDay = "Saturday" %}
+        {% set cardWeatherType = "Mixed" %}
+        {% set cardMinTemp = "11" %}
+        {% set cardMaxTemp = "24" %}
+    {% include "daily-card.njk" %}
+
+  </div>
+</div>
+      
 </section>
