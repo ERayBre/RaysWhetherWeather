@@ -8,7 +8,7 @@ data: overall_forecast
 
 <section class="columns is-desktop is-centered is-multiline">
 
-    {% set title = "Dublin" %}
+    {% set title = "Sydney" %}
     {% for location in overall_forecast %}
         {% if location.locationTitle == title %}
             {% if location.day == "Today" %}
@@ -30,7 +30,7 @@ data: overall_forecast
 <div class="columns">
     <div class="box">
         <h4 class="title is-4">Suggested Clothing</h4>
-        <p>The forcast today is sunny and dry in Dublin, feel good in some summer clothing. Bring a jacket for this evening as the temperature is going to drop to 5°C</p>
+        <p>The forcast today is sunny and dry in Sydney, feel good in some summer clothing.</p>
         <figure class="image">
           <img src="/images/clothing/sunny.jpg" alt="Clothing Image">
         </figure>
