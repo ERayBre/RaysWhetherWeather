@@ -1,7 +1,7 @@
 ---
 layout: layout.njk 
 title: Dashboard 
-subTitle: Today - Monday 22-12-2025
+subTitle: Today
 data: overall_forecast
 ---
 
@@ -9,13 +9,14 @@ data: overall_forecast
 
     {% for location in overall_forecast %}
 
-        {% if location.day == "Monday" %}
+        {% if location.day == "Today" %}
             {% set locationTitle = location.locationTitle %}
             {% set weatherTypeImage = location.weatherTypeImage %}
             {% set weatherDescription = location.weatherDescription %}
-            {% set locationTemp = location.locationTemp %}
+            {% set lowTemp = location.lowTemp %}
+            {% set maxTemp = location.maxTemp %}
             {% set windDir = location.windDir %}
-            {% set windSpeed = location.windSpeed %}
+            {% set maxWind = location.maxWind %}
 
             {% include "location-card.njk" %}
         {% endif %}
@@ -23,3 +24,9 @@ data: overall_forecast
     {% endfor %} 
 
 </section>
+
+<nav class="breadcrumb" aria-label="breadcrumbs">
+  <ul>
+    <li class="is-active"><a href="/" aria-current="page">Dashboard</a></li>
+  </ul>
+</nav>

@@ -10,41 +10,48 @@
 
 <body>
 		  <nav class="navbar">
+    <!--
     <div class="navbar-brand">
-      
       <a class="navbar-item" href="/">
         <img src="/images/logo.png" alt="Logo" />
       </a>
-
-
     </div>
+    -->
     <div id="navbarMenu" class="navbar-menu">
       <div class="navbar-end">
         <a href="/" class="navbar-item">
           Dashboard
         </a>
-        <a href="/my-city" class="navbar-item">
-          My City
+        <a href="/cities/right now" class="navbar-item">
+          City Focus
         </a>
-        <a href="/summary" class="navbar-item">
-          Summary
+        <a href="/pages/what-to-wear" class="navbar-item">
+          What to Wear
         </a>
-        <a href="/forcast" class="navbar-item">
-          Forcast
-        </a>
-        <a href="/settings" class="navbar-item">
+        <a href="/pages/settings" class="navbar-item">
           Settings
         </a>
       </div>
     </div>
   </nav>
 
-		  <header class="column is-12 has-text-centered">
-    <p id="page-heading" class="is-size-1">Dashboard</p>
-    <subtitle>Today - Monday 22-12-2025</subtitle>
-  </header>
-
-
+		<header class="header">
+  <div class="container">
+    <div class="columns is-vcentered m-1">
+      <div class="column is-3">
+        <figure class="image">
+          <a href="/">
+            <img src="/images/logo.png" alt="Logo Image">
+          </a>
+        </figure>
+      </div>
+      <div class="column is-9 has-text-centered">
+        <h1 class="title is-1">Dashboard</h1>
+        <h3 class="subtitle is-3">Today</h3>
+      </div>
+    </div>
+  </div>
+</header>
 <main>
 	
 <section class="columns is-desktop is-centered is-multiline">
@@ -58,11 +65,12 @@
             
             
             
+            
 
-            <div class="column is-4 is-box">
+            <div class="column is-3 is-box">
 
-  <section class="card has-text-centered m-6 p-5">
-    <a href="/Dublin">
+  <section class="card has-text-centered m-2">
+    <a href="/cities/Dublin">
 
       <header class="card-header">
         <p class="card-header-title is-size-4 is-centered">
@@ -72,7 +80,7 @@
 
       <div class="card-image">
         <figure class="image">
-          <img src="/images/sunny.jpg" alt="Weather Type Image">
+          <img src="/images/Overcast.jpg" alt="Weather Type Image">
         </figure>
       </div>
 
@@ -90,23 +98,21 @@
                         <p class="content is-size-4">
               
             </p>
-            <p class="subtitle is-size-4 is-centered">
+            <p class="subtitle is-5 is-centered">
               
               <br>
               Dublin is Overcast
               <br>
-              Max Wind  km/h 
-              <br> 
-              Max Temp  °C
+              Wind Max 12 Km/h
             </p>
-
+            <div class="is-flex is-justify-content-space-between">
+              <div><p> Low 6°C</p></div>
+              <div><p> High 8°C</p></div>
+            </div>
           </div>
         </div>
-
       </a>
-
     </section>
-
   </div>
 
 
@@ -146,11 +152,12 @@
             
             
             
+            
 
-            <div class="column is-4 is-box">
+            <div class="column is-3 is-box">
 
-  <section class="card has-text-centered m-6 p-5">
-    <a href="/London">
+  <section class="card has-text-centered m-2">
+    <a href="/cities/London">
 
       <header class="card-header">
         <p class="card-header-title is-size-4 is-centered">
@@ -160,7 +167,7 @@
 
       <div class="card-image">
         <figure class="image">
-          <img src="/images/sunny.jpg" alt="Weather Type Image">
+          <img src="/images/Overcast.jpg" alt="Weather Type Image">
         </figure>
       </div>
 
@@ -178,23 +185,21 @@
                         <p class="content is-size-4">
               
             </p>
-            <p class="subtitle is-size-4 is-centered">
+            <p class="subtitle is-5 is-centered">
               
               <br>
-              London is cold and sunny
+              London is Overcast
               <br>
-              Max Wind  km/h 
-              <br> 
-              Max Temp  °C
+              Wind Max 22 Km/h
             </p>
-
+            <div class="is-flex is-justify-content-space-between">
+              <div><p> Low 5°C</p></div>
+              <div><p> High 8°C</p></div>
+            </div>
           </div>
         </div>
-
       </a>
-
     </section>
-
   </div>
 
 
@@ -234,11 +239,12 @@
             
             
             
+            
 
-            <div class="column is-4 is-box">
+            <div class="column is-3 is-box">
 
-  <section class="card has-text-centered m-6 p-5">
-    <a href="/Berlin">
+  <section class="card has-text-centered m-2">
+    <a href="/cities/Berlin">
 
       <header class="card-header">
         <p class="card-header-title is-size-4 is-centered">
@@ -248,7 +254,7 @@
 
       <div class="card-image">
         <figure class="image">
-          <img src="/images/sunny.jpg" alt="Weather Type Image">
+          <img src="/images/Sunny.jpg" alt="Weather Type Image">
         </figure>
       </div>
 
@@ -266,23 +272,21 @@
                         <p class="content is-size-4">
               
             </p>
-            <p class="subtitle is-size-4 is-centered">
+            <p class="subtitle is-5 is-centered">
               
               <br>
-              Berlin is hot and sunny
+              Berlin is Sunny
               <br>
-              Max Wind  km/h 
-              <br> 
-              Max Temp  °C
+              Wind Max 12 Km/h
             </p>
-
+            <div class="is-flex is-justify-content-space-between">
+              <div><p> Low -1°C</p></div>
+              <div><p> High 3°C</p></div>
+            </div>
           </div>
         </div>
-
       </a>
-
     </section>
-
   </div>
 
 
@@ -322,11 +326,186 @@
             
             
             
+            
 
-            <div class="column is-4 is-box">
+            <div class="column is-3 is-box">
 
-  <section class="card has-text-centered m-6 p-5">
-    <a href="/Paris">
+  <section class="card has-text-centered m-2">
+    <a href="/cities/Sydney">
+
+      <header class="card-header">
+        <p class="card-header-title is-size-4 is-centered">
+          Sydney
+        </p>
+      </header>
+
+      <div class="card-image">
+        <figure class="image">
+          <img src="/images/Sunny.jpg" alt="Weather Type Image">
+        </figure>
+      </div>
+
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-96x96">
+              <img
+                src="/images/north.png"
+                alt="Placeholder image"
+              />
+            </figure>
+          </div>
+          <div class="media-content">
+                        <p class="content is-size-4">
+              
+            </p>
+            <p class="subtitle is-5 is-centered">
+              
+              <br>
+              Sydney is Sunny
+              <br>
+              Wind Max 11 Km/h
+            </p>
+            <div class="is-flex is-justify-content-space-between">
+              <div><p> Low 15°C</p></div>
+              <div><p> High 23°C</p></div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </section>
+  </div>
+
+
+
+        
+       
+    
+
+        
+       
+    
+
+        
+       
+    
+
+        
+       
+    
+
+        
+       
+    
+
+        
+       
+    
+
+        
+       
+    
+
+        
+            
+            
+            
+            
+            
+            
+            
+
+            <div class="column is-3 is-box">
+
+  <section class="card has-text-centered m-2">
+    <a href="/cities/Moscow">
+
+      <header class="card-header">
+        <p class="card-header-title is-size-4 is-centered">
+          Moscow
+        </p>
+      </header>
+
+      <div class="card-image">
+        <figure class="image">
+          <img src="/images/Overcast.jpg" alt="Weather Type Image">
+        </figure>
+      </div>
+
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-96x96">
+              <img
+                src="/images/west.png"
+                alt="Placeholder image"
+              />
+            </figure>
+          </div>
+          <div class="media-content">
+                        <p class="content is-size-4">
+              
+            </p>
+            <p class="subtitle is-5 is-centered">
+              
+              <br>
+              Moscow is Overcast
+              <br>
+              Wind Max 18 Km/h
+            </p>
+            <div class="is-flex is-justify-content-space-between">
+              <div><p> Low -4°C</p></div>
+              <div><p> High 2°C</p></div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </section>
+  </div>
+
+
+
+        
+       
+    
+
+        
+       
+    
+
+        
+       
+    
+
+        
+       
+    
+
+        
+       
+    
+
+        
+       
+    
+
+        
+       
+    
+
+        
+            
+            
+            
+            
+            
+            
+            
+
+            <div class="column is-3 is-box">
+
+  <section class="card has-text-centered m-2">
+    <a href="/cities/Paris">
 
       <header class="card-header">
         <p class="card-header-title is-size-4 is-centered">
@@ -336,7 +515,7 @@
 
       <div class="card-image">
         <figure class="image">
-          <img src="/images/sunny.jpg" alt="Weather Type Image">
+          <img src="/images/Sunny.jpg" alt="Weather Type Image">
         </figure>
       </div>
 
@@ -354,23 +533,21 @@
                         <p class="content is-size-4">
               
             </p>
-            <p class="subtitle is-size-4 is-centered">
+            <p class="subtitle is-5 is-centered">
               
               <br>
-              Paris is hot and sunny
+              Paris is Sunny
               <br>
-              Max Wind  km/h 
-              <br> 
-              Max Temp  °C
+              Wind Max 3 Km/h
             </p>
-
+            <div class="is-flex is-justify-content-space-between">
+              <div><p> Low -1°C</p></div>
+              <div><p> High 3°C</p></div>
+            </div>
           </div>
         </div>
-
       </a>
-
     </section>
-
   </div>
 
 
@@ -410,11 +587,12 @@
             
             
             
+            
 
-            <div class="column is-4 is-box">
+            <div class="column is-3 is-box">
 
-  <section class="card has-text-centered m-6 p-5">
-    <a href="/Oslo">
+  <section class="card has-text-centered m-2">
+    <a href="/cities/Oslo">
 
       <header class="card-header">
         <p class="card-header-title is-size-4 is-centered">
@@ -424,7 +602,7 @@
 
       <div class="card-image">
         <figure class="image">
-          <img src="/images/sunny.jpg" alt="Weather Type Image">
+          <img src="/images/Sunny.jpg" alt="Weather Type Image">
         </figure>
       </div>
 
@@ -442,23 +620,21 @@
                         <p class="content is-size-4">
               
             </p>
-            <p class="subtitle is-size-4 is-centered">
+            <p class="subtitle is-5 is-centered">
               
               <br>
-              Oslo is hot and sunny
+              Oslo is Sunny
               <br>
-              Max Wind  km/h 
-              <br> 
-              Max Temp  °C
+              Wind Max 10 Km/h
             </p>
-
+            <div class="is-flex is-justify-content-space-between">
+              <div><p> Low -4°C</p></div>
+              <div><p> High -2°C</p></div>
+            </div>
           </div>
         </div>
-
       </a>
-
     </section>
-
   </div>
 
 
@@ -498,11 +674,12 @@
             
             
             
+            
 
-            <div class="column is-4 is-box">
+            <div class="column is-3 is-box">
 
-  <section class="card has-text-centered m-6 p-5">
-    <a href="/New York">
+  <section class="card has-text-centered m-2">
+    <a href="/cities/New York">
 
       <header class="card-header">
         <p class="card-header-title is-size-4 is-centered">
@@ -512,7 +689,7 @@
 
       <div class="card-image">
         <figure class="image">
-          <img src="/images/sunny.jpg" alt="Weather Type Image">
+          <img src="/images/Windy.jpg" alt="Weather Type Image">
         </figure>
       </div>
 
@@ -521,7 +698,7 @@
           <div class="media-left">
             <figure class="image is-96x96">
               <img
-                src="/images/west.png"
+                src="/images/north.png"
                 alt="Placeholder image"
               />
             </figure>
@@ -530,23 +707,21 @@
                         <p class="content is-size-4">
               
             </p>
-            <p class="subtitle is-size-4 is-centered">
+            <p class="subtitle is-5 is-centered">
               
               <br>
-              New York is hot and sunny
+              New York is Windy
               <br>
-              Max Wind  km/h 
-              <br> 
-              Max Temp  °C
+              Wind Max 20 Km/h
             </p>
-
+            <div class="is-flex is-justify-content-space-between">
+              <div><p> Low -6°C</p></div>
+              <div><p> High 3°C</p></div>
+            </div>
           </div>
         </div>
-
       </a>
-
     </section>
-
   </div>
 
 
@@ -580,8 +755,13 @@
      
 
 </section>
-</main>
 
+<nav class="breadcrumb" aria-label="breadcrumbs">
+  <ul>
+    <li class="is-active"><a href="/" aria-current="page">Dashboard</a></li>
+  </ul>
+</nav>
+</main>
 	  <footer class="footer">
     <div class="container">
       <div class="content has-text-centered">
@@ -594,7 +774,6 @@
       </div>
     </div>
   </footer>
-
 </body>
 
 </html>

@@ -1,0 +1,49 @@
+---
+layout: layout.njk 
+title: What to Wear 
+subTitle: Clothing sugestions based on weather
+data: overall_forecast
+---
+
+
+<section class="columns is-desktop is-centered is-multiline">
+
+    {% set title = "Sydney" %}
+    {% for location in overall_forecast %}
+        {% if location.locationTitle == title %}
+            {% if location.day == "Today" %}
+                {% set locationTitle = title %}
+                {% set weatherTypeImage = location.weatherTypeImage %}
+                {% set weatherDescription = location.weatherDescription %}
+                {% set lowTemp = location.lowTemp %}
+                {% set maxTemp = location.maxTemp %}
+                {% set windDir = location.windDir %}
+                {% set maxWind = location.maxWind %}
+
+                {% include "location-card.njk" %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+
+<article class="column is-7 is-light m-2">
+<div class="columns">
+    <div class="box">
+        <h4 class="title is-4">Suggested Clothing</h4>
+        <p>The forcast today is sunny and dry in Sydney, feel good in some summer clothing.</p>
+        <figure class="image">
+          <img src="/images/clothing/sunny.jpg" alt="Clothing Image">
+        </figure>
+
+    </div>
+
+</div>
+    
+</article>
+
+
+
+</section>
+
+{% set pageName = "What to Wear" %}
+{% include "breadcrumb.njk" %}

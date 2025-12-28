@@ -1,7 +1,7 @@
-<div class="column is-4 is-box">
+<div class="column is-3 is-box">
 
-  <section class="card has-text-centered m-6 p-5">
-    <a href="/{{locationTitle}}">
+  <section class="card has-text-centered m-2">
+    <a href="/cities/{{locationTitle}}">
 
       <header class="card-header">
         <p class="card-header-title is-size-4 is-centered">
@@ -11,7 +11,7 @@
 
       <div class="card-image">
         <figure class="image">
-          <img src="{{weatherTypeImage}}" alt="Weather Type Image">
+          <img src="/images/{{weatherDescription}}.jpg" alt="Weather Type Image">
         </figure>
       </div>
 
@@ -29,23 +29,21 @@
                         <p class="content is-size-4">
               
             </p>
-            <p class="subtitle is-size-4 is-centered">
+            <p class="subtitle is-5 is-centered">
               {{day}}
               <br>
               {{locationTitle}} is {{weatherDescription}}
               <br>
-              Max Wind {{windSpeed}} km/h 
-              <br> 
-              Max Temp {{locationTemp}} °C
+              Wind Max {{ maxWind }} Km/h
             </p>
-
+            <div class="is-flex is-justify-content-space-between">
+              <div><p> Low {{lowTemp}}°C</p></div>
+              <div><p> High {{maxTemp}}°C</p></div>
+            </div>
           </div>
         </div>
-
       </a>
-
     </section>
-
   </div>
 
 

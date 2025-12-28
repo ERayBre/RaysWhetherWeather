@@ -5,27 +5,25 @@
             <tr>
                 <th>Day</th>
                 <th>Weather</th>
+                <th>Min Temp</th>
                 <th>Max Temp</th>
-                <th>Max Wind</th>
+                <th>Wind Direction</th>
                 <th>Wind Speed</th>
             </tr>
         </thread>
                 <tbody>     
-
     			{% for location in overall_forecast %}
-
         			{% if location.locationTitle == locationTitle %}
                 	<tr>
                 		<td>{{ location.day }}</td>
                 		<td>{{ location.weatherDescription }}</td>
-                		<td>{{ location.maxTemp }}</td>
+                		<td>{{ location.lowTemp }}°C</td>
+                		<td>{{ location.maxTemp }}°C</td>
                 		<td>{{ location.windDir }}</td>
-                		<td>{{ location.maxWind }}</td>
+                		<td>{{ location.maxWind }} Km/h</td>
                 	</tr>
         			{% endif %}
-       
    				 {% endfor %} 
-
         </tbody>
     </table>
 </div>
