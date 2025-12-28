@@ -3,7 +3,7 @@
 {"locationTitle": "Dublin", "day": "Tuesday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Sunny", "maxTemp": "23", "windDir": "south", "maxWind": "23"},
 {"locationTitle": "Dublin", "day": "Wednesday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Raining", "maxTemp": "23", "windDir": "south", "maxWind": "23"},
 {"locationTitle": "Dublin", "day": "Thursday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Thunder", "maxTemp": "23", "windDir": "south", "maxWind": "23"},
-{"locationTitle": "Dublin", "day": "Friday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Snow", "maxTemp": "23", "windDir": "south", "maxWind": "23"},
+{"locationTitle": "Dublin", "day": "Friday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Showers", "maxTemp": "23", "windDir": "south", "maxWind": "23"},
 {"locationTitle": "Dublin", "day": "Saturday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Windy", "maxTemp": "23", "windDir": "south", "maxWind": "23"},
 {"locationTitle": "Dublin", "day": "Sunday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "Mixed", "maxTemp": "23", "windDir": "south", "maxWind": "23"},
 {"locationTitle": "London", "day": "Monday", "weatherTypeImage": "/images/sunny.jpg", "weatherDescription": "cold and sunny", "maxTemp": "13", "windDir": "north", "maxWind": "23"},
