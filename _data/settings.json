@@ -1,0 +1,10 @@
+[
+{"settingTitle": "Show Temp", "active": "true"},
+{"settingTitle": "Celcius", "active": "true"},
+{"settingTitle": "Show Wind Speed", "active": "true"},
+{"settingTitle": "Km/h", "active": "true"},
+{"settingTitle": "Dark Mode", "active": "true"},
+{"settingTitle": "Custom Setting 1", "active": "false"},
+{"settingTitle": "Custom Setting 2", "active": "true"},
+{"settingTitle": "Custom Setting 3", "active": "false"}
+]

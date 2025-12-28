@@ -1,0 +1,52 @@
+---
+layout: layout.njk 
+title: Settings 
+subTitle: Personal Preferences
+---
+
+<section class="columns is-desktop">
+
+    <section class="column is-3 is-offset-2">
+     <div class="box">
+        <h2 class="title is-2">Favourite Cities</h2>
+        {% for city in settings_cities %}
+        <div class="column is-flex is-justify-content-space-between">
+            <div class="is-vcentered">
+            <p class="title is-5 has-text-left">{{ city.locationTitle }}</p>
+        </div>
+        <div class="buttons has-addons is-vcentered">
+            {% if city.active == "true" %}
+                <button class="button">Off</button>
+                <button class="button is-success is-selected">On</button>
+            {% elseif city.active == "false" %}
+                <button class="button is-dark is-selected">Off</button>
+                <button class="button">On</button>
+            {% endif %}
+        </div>
+        </div>
+        {% endfor %} 
+    </div>
+   </section>   
+
+   <section class="column is-3 is-offset-1">
+     <div class="box">
+        <h2 class="title is-2">Other Settings</h2>
+        {% for setting in settings %}
+        <div class="column is-flex is-justify-content-space-between">
+            <div class="is-vcentered">
+            <p class="title is-5 has-text-left">{{ setting.settingTitle }}</p>
+        </div>
+        <div class="buttons has-addons is-vcentered">
+            {% if setting.active == "true" %}
+                <button class="button">Off</button>
+                <button class="button is-success is-selected">On</button>
+            {% elseif setting.active == "false" %}
+                <button class="button is-dark is-selected">Off</button>
+                <button class="button">On</button>
+            {% endif %}
+        </div>
+        </div>
+        {% endfor %} 
+     </div>
+   </section>     
+</section>

@@ -1,0 +1,10 @@
+[
+{"locationTitle": "Dublin", "active": "true"},
+{"locationTitle": "London", "active": "true"},
+{"locationTitle": "Berlin", "active": "true"},
+{"locationTitle": "Sydney", "active": "false"},
+{"locationTitle": "Moscow", "active": "true"},
+{"locationTitle": "Paris", "active": "true"},
+{"locationTitle": "Oslo", "active": "true"},
+{"locationTitle": "New York", "active": "true"}
+]
