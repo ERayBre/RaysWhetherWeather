@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="light" lang="en">
+<html data-theme="dark" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -10,27 +10,20 @@
 
 <body>
 		  <nav class="navbar">
+    <!--
     <div class="navbar-brand">
-      
       <a class="navbar-item" href="/">
         <img src="/images/logo.png" alt="Logo" />
       </a>
-
-
     </div>
+    -->
     <div id="navbarMenu" class="navbar-menu">
       <div class="navbar-end">
         <a href="/" class="navbar-item">
           Dashboard
         </a>
-        <a href="/city-focus" class="navbar-item">
+        <a href="/cities/right now" class="navbar-item">
           City Focus
-        </a>
-        <a href="/summary" class="navbar-item">
-          Summary
-        </a>
-        <a href="/forcast" class="navbar-item">
-          Forcast
         </a>
         <a href="/settings" class="navbar-item">
           Settings
@@ -39,76 +32,29 @@
     </div>
   </nav>
 
-		  <header class="column is-12 has-text-centered">
-    <p id="page-heading" class="is-size-1">My City</p>
-    <subtitle>Weekly Forecast</subtitle>
-  </header>
-
+		<header class="header">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-3">
+        <figure class="image">
+          <a href="/">
+            <img src="/images/logo.png" alt="Logo Image">
+          </a>
+        </figure>
+      </div>
+      <div class="column is-9 has-text-centered">
+        <h1 class="title is-1">Dublin</h1>
+        <h3 class="subtitle is-3">City Focus</h3>
+      </div>
+    </div>
+  </div>
+</header>
 
 <main>
 	
 <section class="columns is-desktop is-centered is-multiline">
 
     
-
-    
-
-        
-       
-    
-
-        
-       
-    
-
-        
-       
-    
-
-        
-       
-    
-
-        
-       
-    
-
-        
-       
-    
-
-        
-       
-    
-
-        
-       
-    
-
-        
-       
-    
-
-        
-       
-    
-
-        
-       
-    
-
-        
-       
-    
-
-        
-       
-    
-
-        
-       
-    
-
         
             
                 
@@ -119,20 +65,20 @@
                 
                 
 
-                <div class="column is-4 is-box">
+                <div class="column is-3 is-box">
 
-  <section class="card has-text-centered m-6 p-5">
-    <a href="/Berlin">
+  <section class="card has-text-centered m-2">
+    <a href="/cities/Right Now">
 
       <header class="card-header">
         <p class="card-header-title is-size-4 is-centered">
-          Berlin
+          Right Now
         </p>
       </header>
 
       <div class="card-image">
         <figure class="image">
-          <img src="/images/Overcast.jpg" alt="Weather Type Image">
+          <img src="/images/Sunny.jpg" alt="Weather Type Image">
         </figure>
       </div>
 
@@ -141,7 +87,7 @@
           <div class="media-left">
             <figure class="image is-96x96">
               <img
-                src="/images/north.png"
+                src="/images/south.png"
                 alt="Placeholder image"
               />
             </figure>
@@ -150,152 +96,150 @@
                         <p class="content is-size-4">
               
             </p>
-            <p class="subtitle is-size-4 is-centered">
-              Monday
+            <p class="subtitle is-5 is-centered">
+              
               <br>
-              Berlin is Overcast
+              Right Now is Sunny
               <br>
-              Max Wind 14 km/h 
-              <br> 
-              Max Temp 20 °C
+              Wind Max 23 Km/h
             </p>
-
+            <div class="is-flex is-justify-content-space-between">
+              <div><p> Low 5°C</p></div>
+              <div><p> High 23°C</p></div>
+            </div>
           </div>
         </div>
-
       </a>
-
     </section>
-
   </div>
 
 
 
             
         
-       
     
-
         
             
         
-       
     
-
         
             
         
-       
     
-
         
             
         
-       
     
-
         
             
         
-       
     
-
         
             
         
-       
     
-
         
             
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
         
-       
     
-
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
 
     
     
@@ -305,239 +249,189 @@
             <tr>
                 <th>Day</th>
                 <th>Weather</th>
+                <th>Min Temp</th>
                 <th>Max Temp</th>
                 <th>Max Wind</th>
                 <th>Wind Speed</th>
             </tr>
         </thread>
                 <tbody>     
-
     			
-
         			
-       
-   				 
-
+                	<tr>
+                		<td>Today</td>
+                		<td>Sunny</td>
+                		<td>5°C</td>
+                		<td>23°C</td>
+                		<td>south</td>
+                		<td>23 Km/h</td>
+                	</tr>
         			
-       
    				 
-
-        			
-       
-   				 
-
-        			
-       
-   				 
-
-        			
-       
-   				 
-
-        			
-       
-   				 
-
-        			
-       
-   				 
-
-        			
-       
-   				 
-
-        			
-       
-   				 
-
-        			
-       
-   				 
-
-        			
-       
-   				 
-
-        			
-       
-   				 
-
-        			
-       
-   				 
-
-        			
-       
-   				 
-
         			
                 	<tr>
                 		<td>Monday</td>
                 		<td>Overcast</td>
-                		<td>20</td>
-                		<td>north</td>
-                		<td>14</td>
+                		<td>5°C</td>
+                		<td>23°C</td>
+                		<td>south</td>
+                		<td>23 Km/h</td>
                 	</tr>
         			
-       
    				 
-
         			
                 	<tr>
                 		<td>Tuesday</td>
                 		<td>Sunny</td>
-                		<td>24</td>
-                		<td>north</td>
-                		<td>23</td>
+                		<td>5°C</td>
+                		<td>23°C</td>
+                		<td>south</td>
+                		<td>23 Km/h</td>
                 	</tr>
         			
-       
    				 
-
         			
                 	<tr>
                 		<td>Wednesday</td>
                 		<td>Raining</td>
-                		<td>19</td>
-                		<td>west</td>
-                		<td>18</td>
+                		<td>5°C</td>
+                		<td>23°C</td>
+                		<td>south</td>
+                		<td>23 Km/h</td>
                 	</tr>
         			
-       
    				 
-
         			
                 	<tr>
                 		<td>Thursday</td>
                 		<td>Thunder</td>
-                		<td>17</td>
-                		<td>west</td>
-                		<td>20</td>
+                		<td>5°C</td>
+                		<td>23°C</td>
+                		<td>south</td>
+                		<td>23 Km/h</td>
                 	</tr>
         			
-       
    				 
-
         			
                 	<tr>
                 		<td>Friday</td>
                 		<td>Showers</td>
-                		<td>15</td>
+                		<td>5°C</td>
+                		<td>23°C</td>
                 		<td>south</td>
-                		<td>17</td>
+                		<td>23 Km/h</td>
                 	</tr>
         			
-       
    				 
-
         			
                 	<tr>
                 		<td>Saturday</td>
                 		<td>Windy</td>
-                		<td>16</td>
+                		<td>5°C</td>
+                		<td>23°C</td>
                 		<td>south</td>
-                		<td>30</td>
+                		<td>23 Km/h</td>
                 	</tr>
         			
-       
    				 
-
         			
-                	<tr>
-                		<td>Sunday</td>
-                		<td>Mixed</td>
-                		<td>18</td>
-                		<td>west</td>
-                		<td>23</td>
-                	</tr>
-        			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
    				 
-
         			
-       
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
+   				 
+        			
    				  
-
         </tbody>
     </table>
 </div>
@@ -549,7 +443,6 @@
  
 
 </section>
-
 </main>
 
 	  <footer class="footer">

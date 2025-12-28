@@ -1,0 +1,22 @@
+<section class="columns is-desktop is-centered is-multiline">
+
+    {% for location in overall_forecast %}
+        {% if location.locationTitle == title %}
+            {% if location.day == "Today" %}
+                {% set locationTitle = "Right Now" %}
+                {% set weatherTypeImage = location.weatherTypeImage %}
+                {% set weatherDescription = location.weatherDescription %}
+                {% set lowTemp = location.lowTemp %}
+                {% set maxTemp = location.maxTemp %}
+                {% set windDir = location.windDir %}
+                {% set maxWind = location.maxWind %}
+
+                {% include "location-card.njk" %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+    {% set locationTitle = title %}
+    {% include "forecast-table.njk" %} 
+
+</section>
