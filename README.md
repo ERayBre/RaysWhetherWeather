@@ -13,3 +13,7 @@ https://unsplash.com/@abid_ahmad_shah
 \
 \
 got info for pulling data from json here https://benmyers.dev/blog/eleventy-data-cascade/
+
+arrows downloaded from https://www.freepik.com/icon
+
+# 28/12/2025 finished exploring functionality, build from scratch and implement specification for POC's
