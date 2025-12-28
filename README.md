@@ -29,6 +29,14 @@ install 11ty, cd to the extracted directory, run the eleventy -serve command fro
 ### Online
 This webpage is published and hosted at Netlify and can be found at this link https://rayswhetherweather.netlify.app/ 
 
+# Project Overview
+This project simulates the POC and release schedule for a new weather app:\
+It has encorporated the below
+Usage of eleventy to develope
+Usage of templates and layout
+Reusable components such as header, footer, nav, city-focus-content, forecast-table and location-card
+Independent learning about eleventy and nunjucks to allow for use of data from json files and using for loops and conditional statements\
+THe project structure is clearly layed out with the main index page at root and other pages in the pages and cities folders, images in the images folder and data in the \_data folder 
 
 
 
