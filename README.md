@@ -19,6 +19,10 @@ The Github repo for this webpage can be found at https://github.com/ERayBre/Rays
 >Templating was achieved by way of 11ty nunjucks, this also allowed for generation of data from json files.
 > 
 >Limitations were hit during deployment of the project as Netlify had credits limits on the deployment of the project, I paused the deployment opting for manual push of the deployment once the credit limit was alomost reached.
+>
+>I ran into time constraints doing this assignent as i was sick for a number of weeks on the run up to christmas.
+>
+>All initial commits were by way of testing different functionality and layouts etc of the site, then on 28/12/2025 the project was taken back to scratch, then each release was commited via  branch on GitHub.
   
   
 # How to run 
@@ -36,26 +40,40 @@ Usage of eleventy to develope
 Usage of templates and layout
 Reusable components such as header, footer, nav, city-focus-content, forecast-table and location-card
 Independent learning about eleventy and nunjucks to allow for use of data from json files and using for loops and conditional statements\
-THe project structure is clearly layed out with the main index page at root and other pages in the pages and cities folders, images in the images folder and data in the \_data folder 
+The project structure is clearly layed out with the main index page at root and other pages in the pages and cities folders, images in the images folder and data in the \_data folder 
+Repitition of code is greatly reduced using the templates and components to reduce code usage and make editing easier.
+This readme.md file has been created to give an excellent overview of the overall assignment.
+Link to GitHib repo https://github.com/ERayBre/RaysWhetherWeather
+Full commit history on Github visible, multiple branches also for hte various deplyments.
+Implemented Bulma breadcrumb component, also templated this.
+Performed a manual upload to netlify when credits became limited.
+Github push deployment to Netlify .
+Released, POC-1
+Released, POC-2
+Released, POC-3
+Released, Release-1
+Released, Release-2
+Released, Release-3
 
-
-
-
-
-
-
-# RaysWhetherWeather
-
-## Reflection
-
-weather images downloaded from unsplash,created by @abid_ahmad_shah
+# Credits
+Author: Raymond Brennan\
+Course: SETU — WEB DEV - Assignment 2\
+Sources: Bulma, Eleventy, UnSplash.com, Freepik.com, Eleventy and Bulma\
+  \
+*weather images downloaded from unsplash,created by @abid_ahmad_shah*\
 https://unsplash.com/@abid_ahmad_shah
-\   
-\
-\
-got info for pulling data from json here https://benmyers.dev/blog/eleventy-data-cascade/
+  \
+*wind direction images sourced from freepik.com*\
+https://www.freepik.com/icon
+  \
+*researched pulling data from json files here*\
+https://benmyers.dev/blog/eleventy-data-cascade/
+  \
+*researched eleventy functionality here*\
+https://www.11ty.dev/docs/data-configuration/
+  \
+*researched Bulma components, elements and layouts here*\
+https://bulma.io/documentation/components
 
-arrows downloaded from https://www.freepik.com/icon
-
-# 28/12/2025 finished exploring functionality, build from scratch and implement specification for POC's
-
+# License
+This project is provided for educational, academic, and portfolio use. None of the media or visual content is intended for distribution beyond its use within this project.
